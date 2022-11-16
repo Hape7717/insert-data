@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+
+.allin {
+    display: grid;
+    margin-top: 60px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    border-radius: 10px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid-item {
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.txt-name {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.menu-btn {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-primary {
+    margin-bottom: 30px;
+    font-size: 17px;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 7px;
+    width: 280px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    transition: .8s;
+
+
+}
+
+.btn-primary:hover {
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+}
+
+
+.btn-sec {
+    margin-bottom: 30px;
+    font-size: 17px;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 7px;
+    width: 280px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(233, 233, 233);
+    border: 1px solid rgb(255, 255, 255);
+    transition: .8s;
+
+
+}
+
+.btn-sec:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: rgb(70, 70, 70);
+    transition: 0.4s;
+}
+
+.capsule-btn {
+    margin-top: 70px;
+    font-size: 17px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    border-radius: 50px;
+    padding: 13px 30px;
+}
+
+.capsule-btn:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: black;
+    transition: .4s;
+}
+
+
+/* / Admin Dashcy */ */
+
+.grid-2 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 280px 280px;
+}
